@@ -1627,3 +1627,46 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.research-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.button-container {
+  text-align: center;
+  padding: 1rem;
+}
+
+.button-container h4 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.research-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #0ea2bd;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.research-btn:hover {
+  background-color: #0c8ca3;
+  transform: translateY(-2px);
+  color: white;
+  box-shadow: 0 4px 12px rgba(14, 162, 189, 0.2);
+}
+
+.research-btn i {
+  font-size: 1.1rem;
+}
