@@ -1631,42 +1631,58 @@ section,
 .research-buttons {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 2.5rem;
   flex-wrap: wrap;
   margin: 2rem 0;
-}
-
-.button-container {
-  text-align: center;
   padding: 1rem;
 }
 
-.button-container h4 {
-  margin-bottom: 1rem;
-  font-weight: 600;
-  color: #333;
-}
-
 .research-btn {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.8rem 1.5rem;
-  background-color: #0ea2bd;
-  color: white;
-  border-radius: 5px;
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+  background-color: var(--surface-color);
+  color: var(--default-color);
+  border-radius: 10px;
   text-decoration: none;
   transition: all 0.3s ease;
-  font-weight: 500;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  min-width: 280px;
 }
 
 .research-btn:hover {
-  background-color: #0c8ca3;
-  transform: translateY(-2px);
-  color: white;
-  box-shadow: 0 4px 12px rgba(14, 162, 189, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+  color: var(--accent-color);
 }
 
 .research-btn i {
+  font-size: 2rem;
+  color: var(--accent-color);
+}
+
+.research-btn .btn-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.research-btn .btn-content h4 {
+  margin: 0;
   font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.research-btn .btn-content span {
+  font-size: 0.9rem;
+  color: var(--accent-color);
+}
+
+@media (max-width: 768px) {
+  .research-btn {
+    width: 100%;
+    min-width: unset;
+  }
 }
