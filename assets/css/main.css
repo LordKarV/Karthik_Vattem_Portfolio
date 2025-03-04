@@ -1676,8 +1676,9 @@ section,
 }
 
 .research-btn .btn-content span {
-  font-size: 0.9rem;
-  color: #cccccc;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
