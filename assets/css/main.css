@@ -1642,8 +1642,8 @@ section,
   align-items: center;
   gap: 1rem;
   padding: 1.5rem 2rem;
-  background-color: var(--surface-color);
-  color: var(--default-color);
+  background-color: #000000;
+  color: #ffffff;
   border-radius: 10px;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -1653,13 +1653,13 @@ section,
 
 .research-btn:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
-  color: var(--accent-color);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+  background-color: #1a1a1a;
 }
 
 .research-btn i {
   font-size: 2rem;
-  color: var(--accent-color);
+  color: #ffffff;
 }
 
 .research-btn .btn-content {
@@ -1672,12 +1672,12 @@ section,
   margin: 0;
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--heading-color);
+  color: #ffffff;
 }
 
 .research-btn .btn-content span {
   font-size: 0.9rem;
-  color: var(--accent-color);
+  color: #cccccc;
 }
 
 @media (max-width: 768px) {
