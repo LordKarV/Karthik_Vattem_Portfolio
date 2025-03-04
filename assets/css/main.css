@@ -1741,3 +1741,25 @@ section,
 .download-btn i {
   font-size: 1rem;
 }
+
+.about-ism {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ism-content {
+  background-color: var(--surface-color);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.ism-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.ism-content p:last-child {
+  margin-bottom: 0;
+}
